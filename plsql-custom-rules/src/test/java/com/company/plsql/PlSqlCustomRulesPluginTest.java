@@ -11,7 +11,7 @@ public class PlSqlCustomRulesPluginTest {
         PlSqlCustomRulesDefinition plugin = new PlSqlCustomRulesDefinition();
         assertThat(plugin.repositoryName()).isEqualTo("dcits");
         assertThat(plugin.repositoryKey()).isEqualTo("dcits-rules");
-        assertThat(plugin.checkClasses().length).isEqualTo(11);
+        assertThat(plugin.checkClasses().length).isEqualTo(12);
     }
 
 }

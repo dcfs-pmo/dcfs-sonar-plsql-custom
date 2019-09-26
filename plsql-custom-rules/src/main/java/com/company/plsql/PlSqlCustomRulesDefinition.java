@@ -29,7 +29,8 @@ public class PlSqlCustomRulesDefinition extends CustomPlSqlRulesDefinition {
 				CodeWithInstanceNameCheck.class,
 				MultipleCallFunctionCheck.class,
 				LoopWithoutInitCheck.class,
-				CartesianProductCheck.class
+				CartesianProductCheck.class,
+				FileMustBeCloseInExceptHanding.class
 		};
 	}
 
